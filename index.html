@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Invitación · Alon & Brenda</title>
+
+  <!-- Tipografías -->
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&family=Great+Vibes&display=swap" rel="stylesheet">
+
+  <!-- External CSS -->
+  <link rel="stylesheet" href="styles/styles.css">
+</head>
+
+<body>
+  <div class="wrap">
+    <!-- Card Section -->
+    <section class="card">
+
+      <!-- Hero Image Section -->
+      <div class="hero">
+        <img src="assets/top.jpeg" alt="Invitación">
+      </div>
+
+      <div class="bhe">ב״ה</div>
+
+      <!-- Invitation Content Section -->
+      <div class="content">
+
+        <!-- Introduction Text -->
+        <p class="intro" style="margin-top:-20px;">
+          Con inmensa alegría y agradecimiento a <span class="nowrap">Hashem</span><br>
+          queremos invitarlos a nuestra jupá y fiesta.
+        </p>
+
+        <!-- Event Details Section -->
+        <div class="details">
+          <p><strong>jueves 12 de marzo 2026 · 23 de Adar 5786</strong></p>
+          <p><strong>Madero Tango a las 18 hs</strong></p>
+          <p>Avenida Alicia Moreau de Justo y Brasil · CABA</p>
+          <p class="muted small">Ingreso únicamente con registro previo y DNI</p>
+        </div>
+
+        <!-- Button Section -->
+        <div class="row">
+          <a class="btn" target="_blank" href="https://maps.app.goo.gl/m7P25PJHxcghDqyeA">
+            📍 Abrir en Google Maps
+          </a>
+          <a class="link-ghost" target="_blank" href="https://forms.gle/KEJGUN1JNoQiZHd49">
+            👉 Confirmar asistencia
+          </a>
+        </div>
+
+        <div class="hr"></div>
+
+        <!-- Gift Information Section -->
+        <p class="gift-header">
+          Lo más importante para nosotros es vivir juntos este día tan especial.
+          Si querés acompañarnos también con un regalo, te lo agradecemos.
+        </p>
+
+        <!-- Gift Alias Section -->
+        <div class="gift-alias-row">
+          <div class="gift-item">
+            <p class="alias-large" id="alias-ars">alon.brenda.ars</p>
+            <button class="btn" onclick="copyAlias('alias-ars')">💳 Copiar alias</button>
+            <p class="muted small">alias pesos</p>
+          </div>
+          <div class="gift-item">
+            <p class="alias-large" id="alias-usd">alon.brenda.usd</p>
+            <button class="btn" onclick="copyAlias('alias-usd')">💳 Copiar alias</button>
+            <p class="muted small">alias dólares</p>
+          </div>
+        </div>
+        
+      </div> <!-- End of .content -->
+    </section> <!-- End of .card -->
+  </div> <!-- End of .wrap -->
+
+  <script src="script.js"></script>
+
+</body>
+</html>
